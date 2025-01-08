@@ -63,10 +63,10 @@ export default function TablePay(props) {
             <td>Enter Till Number :</td>
             <td>
               <Typography level="title-md">
-                5204479
+                8334020
                 <Chip
                   onClick={() => {
-                    copyToClipBoard(5204479);
+                    copyToClipBoard(8334020);
                   }}
                   size="lg"
                   variant="solid"
