@@ -15,17 +15,17 @@ export default function ColorSchemeToggle(props) {
     return (
         <div>
             <IconButton
-                aria-label="toggle light/dark mode"
+                aria-label="toggle green/dark mode"
                 size="sm"
                 variant="outlined"
                 disabled={!mounted}
                 onClick={(event) => {
-                    setMode(mode === 'dark' ? 'light' : 'dark');
+                    setMode(mode === 'dark' ? 'green' : 'dark');
                     onClick?.(event);
                 }}
                 {...other}
             >
-                {mode === 'light' ? <DarkModeRoundedIcon /> : <LightModeRoundedIcon />}
+                {mode === 'greent' ? <DarkModeRoundedIcon /> : <LightModeRoundedIcon />}
             </IconButton>
         </div>
     )
