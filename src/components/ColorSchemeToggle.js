@@ -25,7 +25,7 @@ export default function ColorSchemeToggle(props) {
                 }}
                 {...other}
             >
-                {mode === 'greent' ? <DarkModeRoundedIcon /> : <LightModeRoundedIcon />}
+                {mode === 'green' ? <DarkModeRoundedIcon /> : <LightModeRoundedIcon />}
             </IconButton>
         </div>
     )
