@@ -14,11 +14,11 @@ export default function PieChart() {
     chartInstance.current = new Chart(myChartRef, {
       type: "pie",
       data: {
-        labels: ["Poor", "Fair", "Good", "Excellent"],
+        labels: ["Fair", "Good", "Excellent"],
         datasets: [
           {
             label: "CRB Status Checker",
-            data: [300, 500, 700, 900],
+            data: [500, 700, 900],
             backgroundColor: [
               "rgb(255, 99, 132)",
               "rgb(255, 205, 86)",
