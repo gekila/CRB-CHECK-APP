@@ -62,7 +62,7 @@ export default function CRBStatusReport() {
             sx={{ py: 3, display: "flex", justifyContent: "space-between" }}
           >
             <Box sx={{ gap: 2, display: "flex", alignItems: "center" }}>
-              <Typography level="title-lg">CRB Status Check</Typography>
+              <Typography level="title-lg">CRB SCORE CHECKER</Typography>
               <Avatar
                 variant={"rounded"}
                 alt="The image"
